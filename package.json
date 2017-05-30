@@ -1,0 +1,25 @@
+{
+  "name": "kieran.boggs",
+  "version": "0.0.1",
+  "description": "A plugin to show native alert",
+  "cordova": {
+    "id": "com.example.cordova.alert",
+    "platforms": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kier4n/cordova-alert-plugin.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "alert",
+    "ecosystem:cordova"
+  ],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Kier4n/cordova-alert-plugin/issues"
+  },
+  "homepage": "https://github.com/Kier4n/cordova-alert-plugin#readme"
+}
