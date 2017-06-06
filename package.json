@@ -1,10 +1,13 @@
 {
-  "name": "kieran.boggs",
+  "name": "cordova-alert-plugin",
   "version": "0.0.1",
   "description": "A plugin to show native alert",
   "cordova": {
     "id": "com.example.cordova.alert",
-    "platforms": []
+    "platforms": [
+    "android",
+    "ios"
+    ]
   },
   "repository": {
     "type": "git",
