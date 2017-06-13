@@ -29,6 +29,8 @@ public class PlayerPlugin extends CordovaPlugin {
     alertDialog.setMessage(content);
     alertDialog.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener(){
       public void onClick(DialogInterface dialog, int id){
+
+      }
     });
     alertDialog.show();
   }
