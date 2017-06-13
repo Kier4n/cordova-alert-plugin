@@ -25,7 +25,7 @@ public class PlayerPlugin extends CordovaPlugin {
  
   private void showAlert(String content){
     AlertDialog.Builder alertDialog = new AlertDialog.Builder(this.cordova.getActivity(), AlertDialog.THEME_DEVICE_DEFAULT_LIGHT);
-    alertDialog.setTitle("Alert");
+    alertDialog.setTitle("Player");
     alertDialog.setMessage(content);
     alertDialog.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener(){
       public void onClick(DialogInterface dialog, int id){
