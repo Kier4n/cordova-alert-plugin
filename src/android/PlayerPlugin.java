@@ -49,7 +49,7 @@ public class PlayerPlugin extends CordovaPlugin {
     mediaPlayer.pause();
   }
   private void next(){
-    if (this.playList.length > i+1 && this.playList[i+1] != null){    
+    if (this.playList.length > i+1 && this.playList[i+1] != null){ //verification to check if that array index has a song in it  
       this.i= i+1;
       this.play();
     } 
